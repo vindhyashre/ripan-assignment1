@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game of Life Simulator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>Game of Life Simulator</h1>
+    </header>
+    <main>
+      <div id="controls">
+        <button id="play-pause">Play</button>
+        <button id="reset">Reset</button>
+        <label for="speed">Speed:</label>
+        <select id="speed">
+          <option value="1000">1x</option>
+          <option value="500">2x</option>
+          <option value="250">4x</option>
+        </select>
+        <button id="save">Save State</button>
+        <button id="load">Load State</button>
+      </div>
+      <div id="theme-toggle">
+        <label for="theme">Theme:</label>
+        <select id="theme">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
+      <div id="rule-controls">
+        <label for="survive">Survive (alive neighbors):</label>
+        <input type="text" id="survive" value="2,3" />
+        <label for="birth">Birth (dead neighbors):</label>
+        <input type="text" id="birth" value="3" />
+      </div>
+      <div id="grid-container">
+        <div id="grid"></div>
+      </div>
+      <div id="statistics">
+        <p>Alive Cells: <span id="alive-cells">0</span></p>
+        <p>Dead Cells: <span id="dead-cells">0</span></p>
+        <p>Generations: <span id="generations">0</span></p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

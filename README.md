@@ -1,2 +1,2 @@
-# Problem statement
-Game of Life Simulator
+# Problem statement : Game of Life Simulator
+

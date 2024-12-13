@@ -7,13 +7,11 @@ feature-rich, interactive, and efficient simulator capable of handling user-defi
 dynamic grid sizes, and real-time visualization of the simulation’s evolution.
 
 ## Technology Used:
+
 Frontend: HTML, CSS, JavaScript 
 Frameworks : Reactjs, Bootstrap
-##Screenshots:
 
-
-
-
+## Screenshots:
 
 ![gameoflife1](https://github.com/user-attachments/assets/5947dcce-1d47-48c5-af68-a374287a5852) ![gameoflife2](https://github.com/user-attachments/assets/d80f9910-0ab8-4d45-9e9b-97b83c0bbd35) ![gameoflife3](https://github.com/user-attachments/assets/408f0d9f-6baa-4cfa-940f-027823c66b8f) ![gameoflife4](https://github.com/user-attachments/assets/b68c8b29-0628-4f97-9504-58103d20e0f3)
 

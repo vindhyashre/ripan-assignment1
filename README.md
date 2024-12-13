@@ -6,3 +6,6 @@ dead and transitions state depending on the states of its neighbour’s. The obj
 feature-rich, interactive, and efficient simulator capable of handling user-defined configurations,
 dynamic grid sizes, and real-time visualization of the simulation’s evolution.
 
+Technology Used:
+• Frontend: HTML, CSS, JavaScript 
+
